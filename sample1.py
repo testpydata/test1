@@ -2,6 +2,20 @@ list1 = ["AAA", "BBB"]
 print (list1)
 for item in list1:  #循环打印list的每个元素
     print(item)
+    
+# 转小写方法1
+list2 = ["AAA", "BBB"]
+lower_list1 = []
+for item in list2:  #循环遍历list的每个元素
+    lower_list1.append(item.lower())
+print（lower_list1）     
+
+    
+# 转小写方法2
+list3 = ["AAA", "BBB"]
+lower_list2= [item.lower() for item in list3]
+print（lower_list2）       
+    
 
 #字典的每一个元素都是成对出现
 # key:value
